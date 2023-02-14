@@ -6,20 +6,23 @@ html{
     margin: 0;
     padding: 0;
     box-sizing: inherit !important;
-    color: hsl(207, 28%, 79%);
+    color: hsl(200, 2%, 69%);
 }
 body{
     margin: 0;
     padding: 0;
-    background-color: hsl(0, 1%, 20%);
+    background-color: hsl(0, 3%, 30%);
 }
 main{
     margin-inline: 0;
+    width: 100%;
+    background-color: blue;
 }
 main > section {
-    width: 100vw;
+    width: 60% !important;
+    background-color: red !important;
+    margin: auto 0 !important;
 }
 main > section > form {
-    margin: auto 0 !important;
-    
+    width: 100%;
 }
