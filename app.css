@@ -21,5 +21,5 @@ main > section {
     background-color: aqua;
 }
 main > section > form {
-    margin-inline: 0 !important;
+    margin: auto 0 !important;
 }
