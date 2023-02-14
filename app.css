@@ -18,8 +18,9 @@ main{
     width: 100%;
 }
 main > section {
-    width: 60% !important;
+    width: 40% !important;
     margin-inline: auto !important;
+    border: 2px solid #fff;
 }
 main > section > form {
     width: 100%;
