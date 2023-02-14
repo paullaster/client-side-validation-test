@@ -54,4 +54,5 @@ textArea.addEventListener('input', (event) =>{
         errorSpan.textContent = '';
         return;
     }
+    showError(textArea, errorSpan)
 })
