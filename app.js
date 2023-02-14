@@ -1,4 +1,5 @@
 const form = document.querySelector("form");
+const textArea = document.querySelector("textarea#comment");
 const inputs = document.querySelectorAll(
   "input"
 );
