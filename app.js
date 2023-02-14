@@ -3,4 +3,6 @@ const inputs = document.querySelectorAll(
   "input"
 );
 
-console.log(inputs)
+Array.from(inputs).forEach( (input) => {
+    
+})
