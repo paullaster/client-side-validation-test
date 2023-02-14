@@ -45,7 +45,7 @@ const showError = (input, error) => {
         `;
         return;
     }
-    if(input.validity.tooLong || input.value.length === input.maxLength){
+    if(input.validity.tooLong || input.value.length == input.maxLength){
         error.textContent = `
         $Maximum  ${input.maxLength} characters for ${input.id} is reached!
         `;
