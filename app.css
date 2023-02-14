@@ -17,6 +17,9 @@ main{
     margin-inline: 0;
 }
 main > section {
-    width: 80%;
+    width: 100%;
+    background-color: aqua;
+}
+main > section > form {
     margin-inline: 0 !important;
 }
