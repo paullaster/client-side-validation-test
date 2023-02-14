@@ -20,6 +20,6 @@ Array.from(inputs).forEach( (input) => {
 const showError = (input, error) => {
     if(input.validity.typeMismatch){
         error.textContent = `${input.id} is a required field!`;
-        error.className = 'active'
+        error.className = 'active';
     }
 }
