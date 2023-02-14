@@ -6,12 +6,10 @@ html{
     margin: 0;
     padding: 0;
     box-sizing: inherit !important;
-    color: hsl(200, 2%, 69%);
 }
 body{
     margin: 0;
     padding: 0;
-    background-color: hsl(0, 3%, 30%);
 }
 main{
     margin-inline: 0;
@@ -19,7 +17,7 @@ main{
 }
 main > section {
     width: 40% !important;
-    height: 50vh !important;
+    height: 70vh !important;
     margin-inline: auto !important;
     border: 2px solid #fff;
 
