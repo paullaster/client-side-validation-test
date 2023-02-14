@@ -31,3 +31,6 @@ main > section > form {
 main > section > form h2 {
  margin-bottom: 20px;
 }
+main > section > form .controls *{
+ margin-bottom: 20px;
+}
