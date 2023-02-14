@@ -39,4 +39,7 @@ const showError = (input, error) => {
         }`;
         return;
     }
+    if(input.validity.tooShort){
+        error.textContent = ""
+    }
 }
