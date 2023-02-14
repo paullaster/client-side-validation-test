@@ -10,6 +10,7 @@ Array.from(inputs).forEach( (input) => {
         if(input.validity.valid){
             //Reset error span
             errorSpan.textContent ='';
+            return;
         }
     })
 })
