@@ -16,7 +16,7 @@ main{
     width: 100%;
 }
 main > section {
-    width: 40% !important;
+    width: 50% !important;
     height: 70vh !important;
     margin-inline: auto !important;
     border: 2px solid #fff;
@@ -25,4 +25,7 @@ main > section {
 main > section > form {
     width: 50%;
     margin-inline: auto !important;
+}
+main > section > form * {
+    
 }
