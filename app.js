@@ -8,6 +8,8 @@ console.log(errorSpan);
 
 Array.from(inputs).forEach( (input) => {
     input.addEventListener("input", (event) => {
-        console.log(input.validity)
+        if(input.validity.valid){
+            
+        }
     })
 })
