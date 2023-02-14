@@ -25,7 +25,9 @@ main > section {
 main > section > form {
     width: 50%;
     margin-inline: auto !important;
+    display: flex !important;
+    flex-direction: column;
 }
 main > section > form * {
-    
+
 }
