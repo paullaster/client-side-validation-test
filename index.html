@@ -1,48 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Client side Validation test</title>
-    <link rel="stylesheet" href="./app.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./app.css" />
+  </head>
+  <body>
     <!-- HEADER START HERE -->
     <header></header>
     <!-- HEADER ENDS HERE -->
     <!-- MAIN START HERE -->
     <main>
-        <section>
-            <form >
-                <h2>Enter your support query</h2>
-                <div class="controls">
-                    <div class="formgroup">
-                        <label for="username">Username</label>
-                        <input type="text" id="username" required>
-                        <span class="error" arial-live="polite"></span>
-                    </div>
-                    <div class="formgroup">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" required>
-                        <span class="error" arial-live="polite"></span>
-                    </div>
-                    <div class="formgroup">
-                        <label for="phonenumber">Phone number</label>
-                        <input type="tel" id="phonenumber" required>
-                        <span class="error" arial-live="polite"></span>
-                    </div>
-                    <div class="formgroup">
-                        <label for="comment">Comment</label>
-                        <textarea name="20" id="comment" cols="30" rows="10" required></textarea>
-                        <span class="error" arial-live="polite"></span>
-                    </div>
-                    <div class="formgroup">
-                        <button type="submit">query</button>
-                    </div>
-                </div>
-            </form>
-        </section>
+      <section>
+        <form>
+          <h2>Enter your support query</h2>
+          <div class="controls">
+            <div class="formgroup">
+              <label for="username">Username</label>
+              <input type="text" id="username" required minlength="5" maxlength="20" />
+              <span class="error" arial-live="polite"></span>
+            </div>
+            <div class="formgroup">
+              <label for="email">Email</label>
+              <input type="email" id="email" required />
+              <span class="error" arial-live="polite"></span>
+            </div>
+            <div class="formgroup">
+              <label for="phonenumber">Phone number</label>
+              <input type="tel" id="phonenumber" required />
+              <span class="error" arial-live="polite"></span>
+            </div>
+            <div class="formgroup">
+              <label for="comment">Comment</label>
+              <textarea
+                name="20"
+                id="comment"
+                cols="30"
+                rows="10"
+                required
+              ></textarea>
+              <span class="error" arial-live="polite"></span>
+            </div>
+            <div class="formgroup">
+              <button type="submit">query</button>
+            </div>
+          </div>
+        </form>
+      </section>
     </main>
     <!-- MAIN ENDS HERE -->
     <!-- SIDEBARS STARTS HERE -->
@@ -51,5 +57,5 @@
     <!-- FOOTER STARTS HERE -->
     <footer></footer>
     <!-- FOOTER ENDS HERE -->
-</body>
+  </body>
 </html>
