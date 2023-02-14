@@ -4,6 +4,8 @@ const inputs = document.querySelectorAll(
 );
 const errorSpan = document.querySelectorAll("input + span.error");
 
+console.log(errorSpan);
+
 Array.from(inputs).forEach( (input) => {
     input.addEventListener("input", (event) => {
         console.log(input.validity)
