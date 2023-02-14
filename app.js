@@ -40,6 +40,8 @@ const showError = (input, error) => {
         return;
     }
     if(input.validity.tooShort){
-        error.textContent = ""
+        error.textContent = `
+        ${input.id}  minimum length must be at least ${input.minLength} characters
+        `;
     }
 }
