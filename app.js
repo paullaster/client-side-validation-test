@@ -65,6 +65,7 @@ form.addEventListener('submit', (event) =>{
         }
         if (!input.validity.valid && textArea.validity.valid){
             const errorSpan = input.nextElementSibling;
+            showError(input, errorSpan);
         }
     })
 })
