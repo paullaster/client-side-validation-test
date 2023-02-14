@@ -49,7 +49,8 @@ const showError = (input, error) => {
 }
 
 textArea.addEventListener('input', (event) =>{
+    const errorSpan = textArea.nextElementSibling;
     if(textArea.validity.valid){
-        
+
     }
 })
