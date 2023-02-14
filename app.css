@@ -38,3 +38,7 @@ main > section > form .controls .formgroup{
 main > section > form .controls .formgroup *{
     display: block;
 }
+
+input:valid{
+    border: 2px solid hsl(184, 98%, 21%);
+}
