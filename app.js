@@ -15,3 +15,7 @@ Array.from(inputs).forEach( (input) => {
         errorSpan.textContent = `${input.id}`;
     })
 })
+
+const showError = () => {
+    
+}
