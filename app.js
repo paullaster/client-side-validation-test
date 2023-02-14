@@ -49,5 +49,7 @@ const showError = (input, error) => {
 }
 
 textArea.addEventListener('input', (event) =>{
-    
+    if(textArea.validity.valid){
+        
+    }
 })
