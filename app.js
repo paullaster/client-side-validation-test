@@ -23,6 +23,7 @@ const showError = (input, error) => {
         return;
     }
     if(input.validity.valueMissing){
-        
+        error.textContent = `${input.id} is a required field!`;
+        return;
     }
 }
