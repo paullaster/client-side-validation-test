@@ -43,8 +43,9 @@ main > section > form .controls .formgroup *{
     border: none !important;
 } */
 input:valid,
-textarea:valid{
+textarea:valid:focus{
     border: 2px solid hsl(160, 95%, 37%);
+    outline: none !important;
 }
 input:invalid,
 textarea:invalid:focus{
