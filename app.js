@@ -12,5 +12,6 @@ Array.from(inputs).forEach( (input) => {
             errorSpan.textContent ='';
             return;
         }
+        errorSpan.textContent = `${input}`;
     })
 })
