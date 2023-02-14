@@ -80,5 +80,6 @@ form.addEventListener('submit', (event) =>{
         }
         const errorSpan = textArea.nextElementSibling;
         showError(textArea, errorSpan);
+        event.preventDefault();
     })
 })
