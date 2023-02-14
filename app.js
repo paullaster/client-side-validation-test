@@ -5,11 +5,11 @@ const inputs = document.querySelectorAll(
 
 Array.from(inputs).forEach( (input) => {
     input.addEventListener("input", (event) => {
-        //const errorSpan = document.querySelector(`${input} + span.error`);
-        console.log(input)
+        const errorSpan = input.nextElementSibling;
+        console.log(errorSpan)
         if(input.validity.valid){
-            
-            
+            //Reset error span
+            errorSpan.textContent ='';
         }
     })
 })
