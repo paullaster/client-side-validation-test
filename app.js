@@ -27,7 +27,14 @@ const showError = (input, error) => {
         return;
     }
     if(input.validity.patternMismatch){
-        error.textContent = `Invalid ${input.id} pattern, use ${input.pattern}`;
+        error.textContent = 
+        `Invalid ${input.id} pattern \n,
+        ${
+            input.id ==="username"? "e.g. p.admin" :
+            input.id ==="email"? "e.g. p@bspore.com" :
+            input.id ==="phonenumber"? 
+            "e.g. 0700444500 | 070-044-4500 | 070.044.4500 | 070 044 4500": ''
+        }`;
         return;
     }
 }
