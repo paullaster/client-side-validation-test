@@ -43,5 +43,6 @@ const showError = (input, error) => {
         error.textContent = `
         ${input.id}  minimum length must be at least ${input.minLength} characters
         `;
+        return;
     }
 }
