@@ -11,7 +11,6 @@ Array.from(inputs).forEach( (input) => {
             errorSpan.textContent ='';
             return;
         }
-        console.log(input.value.length)
         showError (input, errorSpan)
         //errorSpan.textContent = `${input.id}`;
     })
