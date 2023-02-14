@@ -11,6 +11,7 @@ Array.from(inputs).forEach( (input) => {
             errorSpan.textContent ='';
             return;
         }
+        console.log(input.value.length)
         showError (input, errorSpan)
         //errorSpan.textContent = `${input.id}`;
     })
@@ -45,7 +46,7 @@ const showError = (input, error) => {
         `;
         return;
     }
-    if(input.validity.tooLong || input.value.length == input.maxLength){
+    if(input.value.length == input.maxLength){
         error.textContent = `
         $Maximum  ${input.maxLength} characters for ${input.id} is reached!
         `;
