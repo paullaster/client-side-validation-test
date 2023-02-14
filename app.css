@@ -33,7 +33,8 @@ main > section > form h2 {
 }
 main > section > form .controls .formgroup{
  margin-bottom: 20px;
+  
 }
-main > section > form .controls  {
-
+main > section > form .controls .formgroup *{
+    display: block;
 }
