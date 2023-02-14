@@ -42,9 +42,11 @@ input{
     outline: none !important;
     border: none !important;
 }
-input:valid{
+input:valid,
+textarea:valid{
     border: 2px solid hsl(160, 95%, 37%);
 }
-input:invalid{
+input:invalid,
+textarea:invalid{
     border: 2px solid hsl(0, 100%, 50%) !important;
 }
