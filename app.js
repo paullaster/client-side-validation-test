@@ -71,9 +71,9 @@ form.addEventListener('submit', (event) =>{
         if (!input.validity.valid && !textArea.validity.valid){
             const errorSpan = input.nextElementSibling;
             showError(input, errorSpan);
-
+            //Displaying error below the comment box
             const errorSpanTextArea = input.nextElementSibling;
-            showError(textArea, errorSpanTextArea)
+            showError(textArea, errorSpanTextArea);
         }
     })
 })
