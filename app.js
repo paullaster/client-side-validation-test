@@ -5,6 +5,6 @@ const inputs = document.querySelectorAll(
 
 Array.from(inputs).forEach( (input) => {
     input.addEventListener("input", (event) => {
-        
+        console.log(input.validity)
     })
 })
