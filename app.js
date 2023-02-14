@@ -64,7 +64,7 @@ form.addEventListener('submit', (event) =>{
             return;
         }
         if (!input.validity.valid && textArea.validity.valid){
-            
+            const errorSpan = input.nextElementSibling;
         }
     })
 })
