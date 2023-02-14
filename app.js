@@ -82,15 +82,6 @@ form.addEventListener("submit", event => {
       event.preventDefault();
       return;
     }
-    // if (!input.validity.valid && !textArea.validity.valid) {
-    //   const errorSpan = input.nextElementSibling;
-    //   showError(input, errorSpan);
-    //   //Displaying error below the comment box
-    //   const errorSpanTextArea = input.nextElementSibling;
-    //   showError(textArea, errorSpanTextArea);
-    //   event.preventDefault();
-    //   return;
-    // }
   });
   const errorSpan = textArea.nextElementSibling;
   showError(textArea, errorSpan);
