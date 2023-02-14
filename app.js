@@ -26,4 +26,8 @@ const showError = (input, error) => {
         error.textContent = `${input.id} is a required field!`;
         return;
     }
+    if(input.validity.patternMismatch){
+        error.textContent = `${input.id} is a required field!`;
+        return;
+    }
 }
