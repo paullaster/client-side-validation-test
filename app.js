@@ -6,7 +6,6 @@ const inputs = document.querySelectorAll(
 Array.from(inputs).forEach( (input) => {
     input.addEventListener("input", (event) => {
         const errorSpan = input.nextElementSibling;
-        errorSpan.innerHTML = `${input.id} is a required field!`;
         if(input.validity.valid){
             //Reset error span
             errorSpan.textContent ='';
@@ -21,5 +20,6 @@ const showError = (input, error) => {
     error.className = 'active';
     if(input.validity.typeMismatch){
         error.textContent = `${input.id} is a required field!`;
+        return;
     }
 }
