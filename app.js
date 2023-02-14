@@ -47,3 +47,5 @@ const showError = (input, error) => {
         return;
     }
 }
+
+console.log(textArea);
