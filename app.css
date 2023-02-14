@@ -42,12 +42,12 @@ main > section > form .controls .formgroup *{
     outline: none !important;
     border: none !important;
 } */
-input:valid,
+input:valid:focus,
 textarea:valid:focus{
     border: 2px solid hsl(160, 95%, 37%);
     outline: none !important;
 }
-input:invalid,
+input:invalid:focus,
 textarea:invalid:focus{
     border: 2px solid hsl(0, 100%, 50%) !important;
     outline: none !important;
