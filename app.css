@@ -19,8 +19,10 @@ main{
 }
 main > section {
     width: 40% !important;
+    height: 50vh !important;
     margin-inline: auto !important;
     border: 2px solid #fff;
+
 }
 main > section > form {
     width: 100%;
