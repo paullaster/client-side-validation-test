@@ -48,4 +48,6 @@ const showError = (input, error) => {
     }
 }
 
-console.log(textArea);
+textArea.addEventListener('change', (event) =>{
+    
+})
