@@ -33,7 +33,9 @@ const showError = (input, error) => {
             input.id ==="username"? "e.g. p.admin" :
             input.id ==="email"? "e.g. p@bspore.com" :
             input.id ==="phonenumber"? 
-            "e.g. 0700444500 | 070-044-4500 | 070.044.4500 | 070 044 4500": ''
+             "e.g." + "" +"\t" + "0700444500" +"\n" 
+             +"|" +"\t" +"070-044-4500"+ "\n " +"|"+" \t"+ "070.044.4500" +
+             "\n" +"|" +"\t" +"070 044 4500": ''
         }`;
         return;
     }
