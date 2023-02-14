@@ -5,8 +5,9 @@ const inputs = document.querySelectorAll(
 
 Array.from(inputs).forEach( (input) => {
     input.addEventListener("input", (event) => {
-        if(input.validity.valid){
-            const errorSpan = document.querySelector(`'${input}' + span.error`);
+        const errorSpan = document.querySelector(`${input} + span.error`);
+        if(!input.validity.valid){
+            
             console.log(errorSpan)
         }
     })
