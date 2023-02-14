@@ -71,12 +71,12 @@ textArea.addEventListener("input", event => {
 form.addEventListener("submit", event => {
   Array.from(inputs).forEach(input => {
     if (input.validity.valid) {
-      
+        if (textArea.validity.valid) {
+            console.log("This is the required data in the require format!");
+            return;
+          }
     }
-    if (textArea.validity.valid) {
-        console.log("This is the required data in the require format!");
-        return;
-      }
+    
     if (!input.validity.valid) {
       const errorSpan = input.nextElementSibling;
       showError(input, errorSpan);
