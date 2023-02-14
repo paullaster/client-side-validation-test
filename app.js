@@ -63,6 +63,8 @@ form.addEventListener('submit', (event) =>{
             console.log("This is the required data in the require format!");
             return;
         }
-        
+        if (!input.validity.valid && textArea.validity.valid){
+            
+        }
     })
 })
