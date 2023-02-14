@@ -19,7 +19,7 @@ Array.from(inputs).forEach( (input) => {
 const showError = (input, error) => {
     error.className = 'active';
     if(input.validity.typeMismatch){
-        error.textContent = `Invalid ${input.id}, it should be of type ${input.type}!`;
+        error.textContent = `Invalid ${input.id}, it should be of type '${input.type}'!`;
         return;
     }
     if(input.validity.valueMissing){
