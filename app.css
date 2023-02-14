@@ -28,6 +28,6 @@ main > section > form {
     display: flex !important;
     flex-direction: column;
 }
-main > section > form * {
-
+main > section > form h1 {
+ margin-bottom: 40px;
 }
