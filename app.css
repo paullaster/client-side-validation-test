@@ -38,7 +38,9 @@ main > section > form .controls .formgroup{
 main > section > form .controls .formgroup *{
     display: block;
 }
-
+input{
+    outline: none !important;
+}
 input:valid{
     border: 2px solid hsl(160, 95%, 37%);
 }
