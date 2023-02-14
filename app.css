@@ -16,12 +16,10 @@ body{
 main{
     margin-inline: 0;
     width: 100%;
-    background-color: blue;
 }
 main > section {
     width: 60% !important;
-    background-color: red !important;
-    margin: 0 auto !important;
+    margin: auto auto !important;
 }
 main > section > form {
     width: 100%;
