@@ -38,15 +38,16 @@ main > section > form .controls .formgroup{
 main > section > form .controls .formgroup *{
     display: block;
 }
-input{
+/* input{
     outline: none !important;
     border: none !important;
-}
+} */
 input:valid,
 textarea:valid{
     border: 2px solid hsl(160, 95%, 37%);
 }
 input:invalid,
-textarea:invalid{
+textarea:invalid:focus{
     border: 2px solid hsl(0, 100%, 50%) !important;
+    outline: none !important;
 }
