@@ -40,6 +40,7 @@ main > section > form .controls .formgroup *{
 }
 input{
     outline: none !important;
+    border: none !important;
 }
 input:valid{
     border: 2px solid hsl(160, 95%, 37%);
