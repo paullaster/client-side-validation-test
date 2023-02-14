@@ -56,3 +56,9 @@ textArea.addEventListener('input', (event) =>{
     }
     showError(textArea, errorSpan)
 })
+
+form.addEventListener('submit', (event) =>{
+    Array.from(inputs).forEach(input =>{
+        
+    })
+})
