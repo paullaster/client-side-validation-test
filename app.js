@@ -49,5 +49,5 @@ const showError = (input, error) => {
 }
 
 textArea.addEventListener('change', (event) =>{
-    
+    console.log(textArea.value)
 })
